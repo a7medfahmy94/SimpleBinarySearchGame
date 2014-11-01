@@ -5,9 +5,11 @@
  */
 package game;
 
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -54,6 +56,88 @@ public class MainGUI extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         requiredNumber = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        num24 = new javax.swing.JLabel();
+        num20 = new javax.swing.JLabel();
+        num21 = new javax.swing.JLabel();
+        num22 = new javax.swing.JLabel();
+        num23 = new javax.swing.JLabel();
+        num19 = new javax.swing.JLabel();
+        num25 = new javax.swing.JLabel();
+        num26 = new javax.swing.JLabel();
+        num27 = new javax.swing.JLabel();
+        num28 = new javax.swing.JLabel();
+        num29 = new javax.swing.JLabel();
+        num30 = new javax.swing.JLabel();
+        num31 = new javax.swing.JLabel();
+        num32 = new javax.swing.JLabel();
+        num33 = new javax.swing.JLabel();
+        num34 = new javax.swing.JLabel();
+        num35 = new javax.swing.JLabel();
+        num36 = new javax.swing.JLabel();
+        num37 = new javax.swing.JLabel();
+        num38 = new javax.swing.JLabel();
+        num39 = new javax.swing.JLabel();
+        num40 = new javax.swing.JLabel();
+        num41 = new javax.swing.JLabel();
+        num42 = new javax.swing.JLabel();
+        num43 = new javax.swing.JLabel();
+        num44 = new javax.swing.JLabel();
+        num45 = new javax.swing.JLabel();
+        num46 = new javax.swing.JLabel();
+        num47 = new javax.swing.JLabel();
+        num48 = new javax.swing.JLabel();
+        num49 = new javax.swing.JLabel();
+        num50 = new javax.swing.JLabel();
+        num51 = new javax.swing.JLabel();
+        num52 = new javax.swing.JLabel();
+        num53 = new javax.swing.JLabel();
+        num54 = new javax.swing.JLabel();
+        num55 = new javax.swing.JLabel();
+        num56 = new javax.swing.JLabel();
+        num57 = new javax.swing.JLabel();
+        num58 = new javax.swing.JLabel();
+        num59 = new javax.swing.JLabel();
+        num60 = new javax.swing.JLabel();
+        num61 = new javax.swing.JLabel();
+        num62 = new javax.swing.JLabel();
+        num63 = new javax.swing.JLabel();
+        num64 = new javax.swing.JLabel();
+        num65 = new javax.swing.JLabel();
+        num66 = new javax.swing.JLabel();
+        num67 = new javax.swing.JLabel();
+        num68 = new javax.swing.JLabel();
+        num69 = new javax.swing.JLabel();
+        num70 = new javax.swing.JLabel();
+        num71 = new javax.swing.JLabel();
+        num72 = new javax.swing.JLabel();
+        num73 = new javax.swing.JLabel();
+        num74 = new javax.swing.JLabel();
+        num75 = new javax.swing.JLabel();
+        num76 = new javax.swing.JLabel();
+        num77 = new javax.swing.JLabel();
+        num78 = new javax.swing.JLabel();
+        num79 = new javax.swing.JLabel();
+        num80 = new javax.swing.JLabel();
+        num81 = new javax.swing.JLabel();
+        num82 = new javax.swing.JLabel();
+        num83 = new javax.swing.JLabel();
+        num84 = new javax.swing.JLabel();
+        num85 = new javax.swing.JLabel();
+        num86 = new javax.swing.JLabel();
+        num87 = new javax.swing.JLabel();
+        num88 = new javax.swing.JLabel();
+        num89 = new javax.swing.JLabel();
+        num90 = new javax.swing.JLabel();
+        num91 = new javax.swing.JLabel();
+        num92 = new javax.swing.JLabel();
+        num93 = new javax.swing.JLabel();
+        num94 = new javax.swing.JLabel();
+        num95 = new javax.swing.JLabel();
+        num96 = new javax.swing.JLabel();
+        num97 = new javax.swing.JLabel();
+        num98 = new javax.swing.JLabel();
+        num99 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -231,75 +315,984 @@ public class MainGUI extends javax.swing.JFrame {
             }
         });
 
+        num24.setText("jLabel1");
+        num24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num24.setPreferredSize(new java.awt.Dimension(60, 19));
+        num24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num24MouseClicked(evt);
+            }
+        });
+
+        num20.setText("jLabel1");
+        num20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num20.setPreferredSize(new java.awt.Dimension(60, 19));
+        num20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num20MouseClicked(evt);
+            }
+        });
+
+        num21.setText("jLabel1");
+        num21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num21.setPreferredSize(new java.awt.Dimension(60, 19));
+        num21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num21MouseClicked(evt);
+            }
+        });
+
+        num22.setText("jLabel1");
+        num22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num22.setPreferredSize(new java.awt.Dimension(60, 19));
+        num22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num22MouseClicked(evt);
+            }
+        });
+
+        num23.setText("jLabel1");
+        num23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num23.setPreferredSize(new java.awt.Dimension(60, 19));
+        num23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num23MouseClicked(evt);
+            }
+        });
+
+        num19.setText("jLabel1");
+        num19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num19.setPreferredSize(new java.awt.Dimension(60, 19));
+        num19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num19MouseClicked(evt);
+            }
+        });
+
+        num25.setText("jLabel1");
+        num25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num25.setPreferredSize(new java.awt.Dimension(60, 19));
+        num25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num25MouseClicked(evt);
+            }
+        });
+
+        num26.setText("jLabel1");
+        num26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num26.setPreferredSize(new java.awt.Dimension(60, 19));
+        num26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num26MouseClicked(evt);
+            }
+        });
+
+        num27.setText("jLabel1");
+        num27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num27.setPreferredSize(new java.awt.Dimension(60, 19));
+        num27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num27MouseClicked(evt);
+            }
+        });
+
+        num28.setText("jLabel1");
+        num28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num28.setPreferredSize(new java.awt.Dimension(60, 19));
+        num28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num28MouseClicked(evt);
+            }
+        });
+
+        num29.setText("jLabel1");
+        num29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num29.setPreferredSize(new java.awt.Dimension(60, 19));
+        num29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num29MouseClicked(evt);
+            }
+        });
+
+        num30.setText("jLabel1");
+        num30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num30.setPreferredSize(new java.awt.Dimension(60, 19));
+        num30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num30MouseClicked(evt);
+            }
+        });
+
+        num31.setText("jLabel1");
+        num31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num31.setPreferredSize(new java.awt.Dimension(60, 19));
+        num31.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num31MouseClicked(evt);
+            }
+        });
+
+        num32.setText("jLabel1");
+        num32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num32.setPreferredSize(new java.awt.Dimension(60, 19));
+        num32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num32MouseClicked(evt);
+            }
+        });
+
+        num33.setText("jLabel1");
+        num33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num33.setPreferredSize(new java.awt.Dimension(60, 19));
+        num33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num33MouseClicked(evt);
+            }
+        });
+
+        num34.setText("jLabel1");
+        num34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num34.setPreferredSize(new java.awt.Dimension(60, 19));
+        num34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num34MouseClicked(evt);
+            }
+        });
+
+        num35.setText("jLabel1");
+        num35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num35.setPreferredSize(new java.awt.Dimension(60, 19));
+        num35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num35MouseClicked(evt);
+            }
+        });
+
+        num36.setText("jLabel1");
+        num36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num36.setPreferredSize(new java.awt.Dimension(60, 19));
+        num36.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num36MouseClicked(evt);
+            }
+        });
+
+        num37.setText("jLabel1");
+        num37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num37.setPreferredSize(new java.awt.Dimension(60, 19));
+        num37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num37MouseClicked(evt);
+            }
+        });
+
+        num38.setText("jLabel1");
+        num38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num38.setPreferredSize(new java.awt.Dimension(60, 19));
+        num38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num38MouseClicked(evt);
+            }
+        });
+
+        num39.setText("jLabel1");
+        num39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num39.setPreferredSize(new java.awt.Dimension(60, 19));
+        num39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num39MouseClicked(evt);
+            }
+        });
+
+        num40.setText("jLabel1");
+        num40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num40.setPreferredSize(new java.awt.Dimension(60, 19));
+        num40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num40MouseClicked(evt);
+            }
+        });
+
+        num41.setText("jLabel1");
+        num41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num41.setPreferredSize(new java.awt.Dimension(60, 19));
+        num41.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num41MouseClicked(evt);
+            }
+        });
+
+        num42.setText("jLabel1");
+        num42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num42.setPreferredSize(new java.awt.Dimension(60, 19));
+        num42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num42MouseClicked(evt);
+            }
+        });
+
+        num43.setText("jLabel1");
+        num43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num43.setPreferredSize(new java.awt.Dimension(60, 19));
+        num43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num43MouseClicked(evt);
+            }
+        });
+
+        num44.setText("jLabel1");
+        num44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num44.setPreferredSize(new java.awt.Dimension(60, 19));
+        num44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num44MouseClicked(evt);
+            }
+        });
+
+        num45.setText("jLabel1");
+        num45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num45.setPreferredSize(new java.awt.Dimension(60, 19));
+        num45.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num45MouseClicked(evt);
+            }
+        });
+
+        num46.setText("jLabel1");
+        num46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num46.setPreferredSize(new java.awt.Dimension(60, 19));
+        num46.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num46MouseClicked(evt);
+            }
+        });
+
+        num47.setText("jLabel1");
+        num47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num47.setPreferredSize(new java.awt.Dimension(60, 19));
+        num47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num47MouseClicked(evt);
+            }
+        });
+
+        num48.setText("jLabel1");
+        num48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num48.setPreferredSize(new java.awt.Dimension(60, 19));
+        num48.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num48MouseClicked(evt);
+            }
+        });
+
+        num49.setText("jLabel1");
+        num49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num49.setPreferredSize(new java.awt.Dimension(60, 19));
+        num49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num49MouseClicked(evt);
+            }
+        });
+
+        num50.setText("jLabel1");
+        num50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num50.setPreferredSize(new java.awt.Dimension(60, 19));
+        num50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num50MouseClicked(evt);
+            }
+        });
+
+        num51.setText("jLabel1");
+        num51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num51.setPreferredSize(new java.awt.Dimension(60, 19));
+        num51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num51MouseClicked(evt);
+            }
+        });
+
+        num52.setText("jLabel1");
+        num52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num52.setPreferredSize(new java.awt.Dimension(60, 19));
+        num52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num52MouseClicked(evt);
+            }
+        });
+
+        num53.setText("jLabel1");
+        num53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num53.setPreferredSize(new java.awt.Dimension(60, 19));
+        num53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num53MouseClicked(evt);
+            }
+        });
+
+        num54.setText("jLabel1");
+        num54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num54.setPreferredSize(new java.awt.Dimension(60, 19));
+        num54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num54MouseClicked(evt);
+            }
+        });
+
+        num55.setText("jLabel1");
+        num55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num55.setPreferredSize(new java.awt.Dimension(60, 19));
+        num55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num55MouseClicked(evt);
+            }
+        });
+
+        num56.setText("jLabel1");
+        num56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num56.setPreferredSize(new java.awt.Dimension(60, 19));
+        num56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num56MouseClicked(evt);
+            }
+        });
+
+        num57.setText("jLabel1");
+        num57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num57.setPreferredSize(new java.awt.Dimension(60, 19));
+        num57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num57MouseClicked(evt);
+            }
+        });
+
+        num58.setText("jLabel1");
+        num58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num58.setPreferredSize(new java.awt.Dimension(60, 19));
+        num58.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num58MouseClicked(evt);
+            }
+        });
+
+        num59.setText("jLabel1");
+        num59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num59.setPreferredSize(new java.awt.Dimension(60, 19));
+        num59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num59MouseClicked(evt);
+            }
+        });
+
+        num60.setText("jLabel1");
+        num60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num60.setPreferredSize(new java.awt.Dimension(60, 19));
+        num60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num60MouseClicked(evt);
+            }
+        });
+
+        num61.setText("jLabel1");
+        num61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num61.setPreferredSize(new java.awt.Dimension(60, 19));
+        num61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num61MouseClicked(evt);
+            }
+        });
+
+        num62.setText("jLabel1");
+        num62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num62.setPreferredSize(new java.awt.Dimension(60, 19));
+        num62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num62MouseClicked(evt);
+            }
+        });
+
+        num63.setText("jLabel1");
+        num63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num63.setPreferredSize(new java.awt.Dimension(60, 19));
+        num63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num63MouseClicked(evt);
+            }
+        });
+
+        num64.setText("jLabel1");
+        num64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num64.setPreferredSize(new java.awt.Dimension(60, 19));
+        num64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num64MouseClicked(evt);
+            }
+        });
+
+        num65.setText("jLabel1");
+        num65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num65.setPreferredSize(new java.awt.Dimension(60, 19));
+        num65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num65MouseClicked(evt);
+            }
+        });
+
+        num66.setText("jLabel1");
+        num66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num66.setPreferredSize(new java.awt.Dimension(60, 19));
+        num66.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num66MouseClicked(evt);
+            }
+        });
+
+        num67.setText("jLabel1");
+        num67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num67.setPreferredSize(new java.awt.Dimension(60, 19));
+        num67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num67MouseClicked(evt);
+            }
+        });
+
+        num68.setText("jLabel1");
+        num68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num68.setPreferredSize(new java.awt.Dimension(60, 19));
+        num68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num68MouseClicked(evt);
+            }
+        });
+
+        num69.setText("jLabel1");
+        num69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num69.setPreferredSize(new java.awt.Dimension(60, 19));
+        num69.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num69MouseClicked(evt);
+            }
+        });
+
+        num70.setText("jLabel1");
+        num70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num70.setPreferredSize(new java.awt.Dimension(60, 19));
+        num70.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num70MouseClicked(evt);
+            }
+        });
+
+        num71.setText("jLabel1");
+        num71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num71.setPreferredSize(new java.awt.Dimension(60, 19));
+        num71.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num71MouseClicked(evt);
+            }
+        });
+
+        num72.setText("jLabel1");
+        num72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num72.setPreferredSize(new java.awt.Dimension(60, 19));
+        num72.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num72MouseClicked(evt);
+            }
+        });
+
+        num73.setText("jLabel1");
+        num73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num73.setPreferredSize(new java.awt.Dimension(60, 19));
+        num73.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num73MouseClicked(evt);
+            }
+        });
+
+        num74.setText("jLabel1");
+        num74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num74.setPreferredSize(new java.awt.Dimension(60, 19));
+        num74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num74MouseClicked(evt);
+            }
+        });
+
+        num75.setText("jLabel1");
+        num75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num75.setPreferredSize(new java.awt.Dimension(60, 19));
+        num75.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num75MouseClicked(evt);
+            }
+        });
+
+        num76.setText("jLabel1");
+        num76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num76.setPreferredSize(new java.awt.Dimension(60, 19));
+        num76.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num76MouseClicked(evt);
+            }
+        });
+
+        num77.setText("jLabel1");
+        num77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num77.setPreferredSize(new java.awt.Dimension(60, 19));
+        num77.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num77MouseClicked(evt);
+            }
+        });
+
+        num78.setText("jLabel1");
+        num78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num78.setPreferredSize(new java.awt.Dimension(60, 19));
+        num78.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num78MouseClicked(evt);
+            }
+        });
+
+        num79.setText("jLabel1");
+        num79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num79.setPreferredSize(new java.awt.Dimension(60, 19));
+        num79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num79MouseClicked(evt);
+            }
+        });
+
+        num80.setText("jLabel1");
+        num80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num80.setPreferredSize(new java.awt.Dimension(60, 19));
+        num80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num80MouseClicked(evt);
+            }
+        });
+
+        num81.setText("jLabel1");
+        num81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num81.setPreferredSize(new java.awt.Dimension(60, 19));
+        num81.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num81MouseClicked(evt);
+            }
+        });
+
+        num82.setText("jLabel1");
+        num82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num82.setPreferredSize(new java.awt.Dimension(60, 19));
+        num82.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num82MouseClicked(evt);
+            }
+        });
+
+        num83.setText("jLabel1");
+        num83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num83.setPreferredSize(new java.awt.Dimension(60, 19));
+        num83.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num83MouseClicked(evt);
+            }
+        });
+
+        num84.setText("jLabel1");
+        num84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num84.setPreferredSize(new java.awt.Dimension(60, 19));
+        num84.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num84MouseClicked(evt);
+            }
+        });
+
+        num85.setText("jLabel1");
+        num85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num85.setPreferredSize(new java.awt.Dimension(60, 19));
+        num85.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num85MouseClicked(evt);
+            }
+        });
+
+        num86.setText("jLabel1");
+        num86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num86.setPreferredSize(new java.awt.Dimension(60, 19));
+        num86.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num86MouseClicked(evt);
+            }
+        });
+
+        num87.setText("jLabel1");
+        num87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num87.setPreferredSize(new java.awt.Dimension(60, 19));
+        num87.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num87MouseClicked(evt);
+            }
+        });
+
+        num88.setText("jLabel1");
+        num88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num88.setPreferredSize(new java.awt.Dimension(60, 19));
+        num88.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num88MouseClicked(evt);
+            }
+        });
+
+        num89.setText("jLabel1");
+        num89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num89.setPreferredSize(new java.awt.Dimension(60, 19));
+        num89.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num89MouseClicked(evt);
+            }
+        });
+
+        num90.setText("jLabel1");
+        num90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num90.setPreferredSize(new java.awt.Dimension(60, 19));
+        num90.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num90MouseClicked(evt);
+            }
+        });
+
+        num91.setText("jLabel1");
+        num91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num91.setPreferredSize(new java.awt.Dimension(60, 19));
+        num91.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num91MouseClicked(evt);
+            }
+        });
+
+        num92.setText("jLabel1");
+        num92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num92.setPreferredSize(new java.awt.Dimension(60, 19));
+        num92.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num92MouseClicked(evt);
+            }
+        });
+
+        num93.setText("jLabel1");
+        num93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num93.setPreferredSize(new java.awt.Dimension(60, 19));
+        num93.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num93MouseClicked(evt);
+            }
+        });
+
+        num94.setText("jLabel1");
+        num94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num94.setPreferredSize(new java.awt.Dimension(60, 19));
+        num94.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num94MouseClicked(evt);
+            }
+        });
+
+        num95.setText("jLabel1");
+        num95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num95.setPreferredSize(new java.awt.Dimension(60, 19));
+        num95.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num95MouseClicked(evt);
+            }
+        });
+
+        num96.setText("jLabel1");
+        num96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num96.setPreferredSize(new java.awt.Dimension(60, 19));
+        num96.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num96MouseClicked(evt);
+            }
+        });
+
+        num97.setText("jLabel1");
+        num97.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num97.setPreferredSize(new java.awt.Dimension(60, 19));
+        num97.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num97MouseClicked(evt);
+            }
+        });
+
+        num98.setText("jLabel1");
+        num98.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num98.setPreferredSize(new java.awt.Dimension(60, 19));
+        num98.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num98MouseClicked(evt);
+            }
+        });
+
+        num99.setText("jLabel1");
+        num99.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        num99.setPreferredSize(new java.awt.Dimension(60, 19));
+        num99.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                num99MouseClicked(evt);
+            }
+        });
+
+        jButton2.setText("Hint");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addComponent(jButton1)
+                .addGap(131, 131, 131)
+                .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(counter, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(222, 222, 222)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(35, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(num1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(num10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(num11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(num2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(num3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(num12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
-                                .addGap(131, 131, 131)
-                                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(num13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(counter, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(num14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(num1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(num10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(num4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(num11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(num2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(num5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(num3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(num12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(num6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(num13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(num4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(num9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                .addComponent(num7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(272, 272, 272)
-                        .addComponent(jLabel1)
-                        .addGap(27, 27, 27)
-                        .addComponent(requiredNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(num91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num94, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num96, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num97, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num99, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(num82, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num83, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num84, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num85, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num86, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num87, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num89, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num90, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(num55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(num63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(num46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addComponent(num37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(num19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(num28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(num36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(27, 27, 27)
+                                .addComponent(requiredNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(num64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(num68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(num69, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num70, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(num73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num76, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num79, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num80, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(num81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(20, 20, 20))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(counter, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
-                .addGap(32, 32, 32)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton1)
+                            .addComponent(counter, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(32, 32, 32))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(num2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(num3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -321,11 +1314,109 @@ public class MainGUI extends javax.swing.JFrame {
                     .addComponent(num18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(num10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(num15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(76, 76, 76)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(requiredNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(39, 39, 39))
+                    .addComponent(num20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num70, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num69, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num76, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num79, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num80, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num83, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num84, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num85, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num86, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num89, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num90, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num87, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num82, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(19, 19, 19)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(num92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num94, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num97, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num99, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num96, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(num91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(requiredNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         pack();
@@ -426,6 +1517,418 @@ public class MainGUI extends javax.swing.JFrame {
         initPlay();
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void num24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num24MouseClicked
+        // TODO add your handling code here:
+        play(24);
+    }//GEN-LAST:event_num24MouseClicked
+
+    private void num20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num20MouseClicked
+        // TODO add your handling code here:
+        play(20);
+    }//GEN-LAST:event_num20MouseClicked
+
+    private void num21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num21MouseClicked
+        // TODO add your handling code here:
+        play(21);
+    }//GEN-LAST:event_num21MouseClicked
+
+    private void num22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num22MouseClicked
+        // TODO add your handling code here:
+        play(22);
+    }//GEN-LAST:event_num22MouseClicked
+
+    private void num23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num23MouseClicked
+        // TODO add your handling code here:
+        play(23);
+    }//GEN-LAST:event_num23MouseClicked
+
+    private void num19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num19MouseClicked
+        // TODO add your handling code here:
+        play(19);
+    }//GEN-LAST:event_num19MouseClicked
+
+    private void num25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num25MouseClicked
+        // TODO add your handling code here:
+        play(25);
+    }//GEN-LAST:event_num25MouseClicked
+
+    private void num26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num26MouseClicked
+        // TODO add your handling code here:
+        play(26);
+    }//GEN-LAST:event_num26MouseClicked
+
+    private void num27MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num27MouseClicked
+        // TODO add your handling code here:
+        play(27);
+    }//GEN-LAST:event_num27MouseClicked
+
+    private void num28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num28MouseClicked
+        // TODO add your handling code here:
+        play(28);
+    }//GEN-LAST:event_num28MouseClicked
+
+    private void num29MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num29MouseClicked
+        // TODO add your handling code here:
+        play(29);
+    }//GEN-LAST:event_num29MouseClicked
+
+    private void num30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num30MouseClicked
+        // TODO add your handling code here:
+        play(30);
+    }//GEN-LAST:event_num30MouseClicked
+
+    private void num31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num31MouseClicked
+        // TODO add your handling code here:
+        play(31);
+    }//GEN-LAST:event_num31MouseClicked
+
+    private void num32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num32MouseClicked
+        // TODO add your handling code here:
+        play(32);
+    }//GEN-LAST:event_num32MouseClicked
+
+    private void num33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num33MouseClicked
+        // TODO add your handling code here:
+        play(33);
+    }//GEN-LAST:event_num33MouseClicked
+
+    private void num34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num34MouseClicked
+        // TODO add your handling code here:
+        play(34);
+    }//GEN-LAST:event_num34MouseClicked
+
+    private void num35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num35MouseClicked
+        // TODO add your handling code here:
+        play(35);
+    }//GEN-LAST:event_num35MouseClicked
+
+    private void num36MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num36MouseClicked
+        // TODO add your handling code here:
+        play(36);
+    }//GEN-LAST:event_num36MouseClicked
+
+    private void num37MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num37MouseClicked
+        // TODO add your handling code here:
+        play(37);
+    }//GEN-LAST:event_num37MouseClicked
+
+    private void num38MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num38MouseClicked
+        // TODO add your handling code here:
+        play(38);
+    }//GEN-LAST:event_num38MouseClicked
+
+    private void num39MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num39MouseClicked
+        // TODO add your handling code here:
+        play(39);
+    }//GEN-LAST:event_num39MouseClicked
+
+    private void num40MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num40MouseClicked
+        // TODO add your handling code here:
+        play(40);
+    }//GEN-LAST:event_num40MouseClicked
+
+    private void num41MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num41MouseClicked
+        // TODO add your handling code here:
+        play(41);
+    }//GEN-LAST:event_num41MouseClicked
+
+    private void num42MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num42MouseClicked
+        // TODO add your handling code here:
+        play(42);
+    }//GEN-LAST:event_num42MouseClicked
+
+    private void num43MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num43MouseClicked
+        // TODO add your handling code here:
+        play(43);
+    }//GEN-LAST:event_num43MouseClicked
+
+    private void num44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num44MouseClicked
+        // TODO add your handling code here:
+        play(44);
+    }//GEN-LAST:event_num44MouseClicked
+
+    private void num45MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num45MouseClicked
+        // TODO add your handling code here:
+        play(45);
+    }//GEN-LAST:event_num45MouseClicked
+
+    private void num46MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num46MouseClicked
+        // TODO add your handling code here:
+        play(46);
+    }//GEN-LAST:event_num46MouseClicked
+
+    private void num47MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num47MouseClicked
+        // TODO add your handling code here:
+        play(47);
+    }//GEN-LAST:event_num47MouseClicked
+
+    private void num48MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num48MouseClicked
+        // TODO add your handling code here:
+        play(48);
+    }//GEN-LAST:event_num48MouseClicked
+
+    private void num49MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num49MouseClicked
+        // TODO add your handling code here:
+        play(49);
+    }//GEN-LAST:event_num49MouseClicked
+
+    private void num50MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num50MouseClicked
+        // TODO add your handling code here:
+        play(50);
+    }//GEN-LAST:event_num50MouseClicked
+
+    private void num51MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num51MouseClicked
+        // TODO add your handling code here:
+        play(51);
+    }//GEN-LAST:event_num51MouseClicked
+
+    private void num52MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num52MouseClicked
+        // TODO add your handling code here:
+        play(52);
+    }//GEN-LAST:event_num52MouseClicked
+
+    private void num53MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num53MouseClicked
+        // TODO add your handling code here:
+        play(53);
+    }//GEN-LAST:event_num53MouseClicked
+
+    private void num54MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num54MouseClicked
+        // TODO add your handling code here:
+        play(54);
+    }//GEN-LAST:event_num54MouseClicked
+
+    private void num55MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num55MouseClicked
+        // TODO add your handling code here:
+        play(55);
+    }//GEN-LAST:event_num55MouseClicked
+
+    private void num56MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num56MouseClicked
+        // TODO add your handling code here:
+        play(56);
+    }//GEN-LAST:event_num56MouseClicked
+
+    private void num57MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num57MouseClicked
+        // TODO add your handling code here:
+        play(57);
+    }//GEN-LAST:event_num57MouseClicked
+
+    private void num58MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num58MouseClicked
+        // TODO add your handling code here:
+        play(58);
+    }//GEN-LAST:event_num58MouseClicked
+
+    private void num59MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num59MouseClicked
+        // TODO add your handling code here:
+        play(59);
+    }//GEN-LAST:event_num59MouseClicked
+
+    private void num60MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num60MouseClicked
+        // TODO add your handling code here:
+        play(60);
+    }//GEN-LAST:event_num60MouseClicked
+
+    private void num61MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num61MouseClicked
+        // TODO add your handling code here:
+        play(61);
+    }//GEN-LAST:event_num61MouseClicked
+
+    private void num62MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num62MouseClicked
+        // TODO add your handling code here:
+        play(62);
+    }//GEN-LAST:event_num62MouseClicked
+
+    private void num63MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num63MouseClicked
+        // TODO add your handling code here:
+        play(63);
+    }//GEN-LAST:event_num63MouseClicked
+
+    private void num64MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num64MouseClicked
+        // TODO add your handling code here:
+        play(64);
+    }//GEN-LAST:event_num64MouseClicked
+
+    private void num65MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num65MouseClicked
+        // TODO add your handling code here:
+        play(65);
+    }//GEN-LAST:event_num65MouseClicked
+
+    private void num66MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num66MouseClicked
+        // TODO add your handling code here:
+        play(66);
+    }//GEN-LAST:event_num66MouseClicked
+
+    private void num67MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num67MouseClicked
+        // TODO add your handling code here:
+        play(67);
+    }//GEN-LAST:event_num67MouseClicked
+
+    private void num68MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num68MouseClicked
+        // TODO add your handling code here:
+        play(68);
+    }//GEN-LAST:event_num68MouseClicked
+
+    private void num69MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num69MouseClicked
+        // TODO add your handling code here:
+        play(69);
+    }//GEN-LAST:event_num69MouseClicked
+
+    private void num70MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num70MouseClicked
+        // TODO add your handling code here:
+        play(70);
+    }//GEN-LAST:event_num70MouseClicked
+
+    private void num71MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num71MouseClicked
+        // TODO add your handling code here:
+        play(71);
+    }//GEN-LAST:event_num71MouseClicked
+
+    private void num72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num72MouseClicked
+        // TODO add your handling code here:
+        play(72);
+    }//GEN-LAST:event_num72MouseClicked
+
+    private void num73MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num73MouseClicked
+        // TODO add your handling code here:
+        play(73);
+    }//GEN-LAST:event_num73MouseClicked
+
+    private void num74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num74MouseClicked
+        // TODO add your handling code here:
+        play(74);
+    }//GEN-LAST:event_num74MouseClicked
+
+    private void num75MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num75MouseClicked
+        // TODO add your handling code here:
+        play(75);
+    }//GEN-LAST:event_num75MouseClicked
+
+    private void num76MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num76MouseClicked
+        // TODO add your handling code here:
+        play(76);
+    }//GEN-LAST:event_num76MouseClicked
+
+    private void num77MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num77MouseClicked
+        // TODO add your handling code here:
+        play(77);
+    }//GEN-LAST:event_num77MouseClicked
+
+    private void num78MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num78MouseClicked
+        // TODO add your handling code here:
+        play(78);
+    }//GEN-LAST:event_num78MouseClicked
+
+    private void num79MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num79MouseClicked
+        // TODO add your handling code here:
+        play(79);
+    }//GEN-LAST:event_num79MouseClicked
+
+    private void num80MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num80MouseClicked
+        // TODO add your handling code here:
+        play(80);
+    }//GEN-LAST:event_num80MouseClicked
+
+    private void num81MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num81MouseClicked
+        // TODO add your handling code here:
+        play(81);
+    }//GEN-LAST:event_num81MouseClicked
+
+    private void num82MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num82MouseClicked
+        // TODO add your handling code here:
+        play(82);
+    }//GEN-LAST:event_num82MouseClicked
+
+    private void num83MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num83MouseClicked
+        // TODO add your handling code here:
+        play(83);
+    }//GEN-LAST:event_num83MouseClicked
+
+    private void num84MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num84MouseClicked
+        // TODO add your handling code here:
+        play(84);
+    }//GEN-LAST:event_num84MouseClicked
+
+    private void num85MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num85MouseClicked
+        // TODO add your handling code here:
+        play(85);
+    }//GEN-LAST:event_num85MouseClicked
+
+    private void num86MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num86MouseClicked
+        // TODO add your handling code here:
+        play(86);
+    }//GEN-LAST:event_num86MouseClicked
+
+    private void num87MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num87MouseClicked
+        // TODO add your handling code here:
+        play(87);
+    }//GEN-LAST:event_num87MouseClicked
+
+    private void num88MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num88MouseClicked
+        // TODO add your handling code here:
+        play(88);
+    }//GEN-LAST:event_num88MouseClicked
+
+    private void num89MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num89MouseClicked
+        // TODO add your handling code here:
+        play(89);
+    }//GEN-LAST:event_num89MouseClicked
+
+    private void num90MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num90MouseClicked
+        // TODO add your handling code here:
+        play(90);
+    }//GEN-LAST:event_num90MouseClicked
+
+    private void num91MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num91MouseClicked
+        // TODO add your handling code here:
+        play(91);
+    }//GEN-LAST:event_num91MouseClicked
+
+    private void num92MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num92MouseClicked
+        // TODO add your handling code here:
+        play(92);
+    }//GEN-LAST:event_num92MouseClicked
+
+    private void num93MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num93MouseClicked
+        // TODO add your handling code here:
+        play(93);
+    }//GEN-LAST:event_num93MouseClicked
+
+    private void num94MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num94MouseClicked
+        // TODO add your handling code here:
+        play(94);
+    }//GEN-LAST:event_num94MouseClicked
+
+    private void num95MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num95MouseClicked
+        // TODO add your handling code here:
+        play(95);
+    }//GEN-LAST:event_num95MouseClicked
+
+    private void num96MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num96MouseClicked
+        // TODO add your handling code here:
+        play(96);
+    }//GEN-LAST:event_num96MouseClicked
+
+    private void num97MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num97MouseClicked
+        // TODO add your handling code here:
+        play(97);
+    }//GEN-LAST:event_num97MouseClicked
+
+    private void num98MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num98MouseClicked
+        // TODO add your handling code here:
+        play(98);
+    }//GEN-LAST:event_num98MouseClicked
+
+    private void num99MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_num99MouseClicked
+        // TODO add your handling code here:
+        play(99);
+    }//GEN-LAST:event_num99MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        int hint = (start + end)/2;
+        labels[hint].setText("HERE");
+        labels[hint].setForeground(Color.red);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     
     
     
@@ -461,6 +1964,7 @@ public class MainGUI extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 MainGUI obj = new MainGUI();
+                obj.labels();
                 obj.initPlay();
                 obj.setVisible(true);
             }
@@ -476,15 +1980,22 @@ public class MainGUI extends javax.swing.JFrame {
             revealNumbers();
         } else {
             revealNumber(x);
+            if(requiredInt < numbers[x]){
+                end = x;
+            }else{
+                start = x+1;
+            }
+            colorLabels();
         }
     }
 
     private void revealNumber(int x){
         labels[x].setText(Integer.toString(numbers[x]));
+        labels[x].setForeground(Color.black);
     }
     
     private void revealNumbers(){
-        for(int i = 1; i <= 18; i++){
+        for(int i = 1; i <= 99; i++){
             labels[i].setText(Integer.toString(numbers[i]));
         }
     }
@@ -494,7 +2005,7 @@ public class MainGUI extends javax.swing.JFrame {
     }
     
     private boolean revealed(int x) {
-        if (labels[x].getText() == "X") {
+        if (labels[x].getText() == "X" || labels[x].getText() == "HERE") {
             return false;
         }
         return true;
@@ -504,20 +2015,22 @@ public class MainGUI extends javax.swing.JFrame {
         initLabels();
         generateNumbers();
         counter.setText("0");
+        start = 0;
+        end = 100;
     }
 
     private void generateNumbers() {
         int[] tmp = new int[100];
         for(int i = 1 ; i <= 100 ; i++){
-            tmp[i-1] = (int)(Math.random()*(i*i*10));
+            tmp[i-1] = (int)(Math.random()*(i*i*100));
         }
-        numbers = new int[19];
+        numbers = new int[100];
         shuffleArray(tmp);
-        for (int i = 1; i <= 18; i++) {
+        for (int i = 1; i <= 99; i++) {
 //            int random = (int) (Math.random() * 10000);
             numbers[i] = tmp[i-1];
         }
-        int random = ((int) (Math.random() * 100)) % 18 + 1;
+        int random = ((int) (Math.random() * 100)) % 99 + 1;
         setRequiredNumber(numbers[random]);
         Arrays.sort(numbers);
     }
@@ -535,11 +2048,13 @@ public class MainGUI extends javax.swing.JFrame {
     }
     
     private void setRequiredNumber(int x) {
+        requiredInt = x;
         requiredNumber.setText(Integer.toString(x));
     }
 
-    private void initLabels() {
-        labels = new javax.swing.JLabel[19];
+    private void labels(){
+        labels = new javax.swing.JLabel[100];
+
         labels[1] = num1;
         labels[2] = num2;
         labels[3] = num3;
@@ -558,15 +2073,105 @@ public class MainGUI extends javax.swing.JFrame {
         labels[16] = num16;
         labels[17] = num17;
         labels[18] = num18;
-        for(int i = 1; i <= 18; i++){
+        labels[19] = num19;
+        labels[20] = num20;
+        labels[21] = num21;
+        labels[22] = num22;
+        labels[23] = num23;
+        labels[24] = num24;
+        labels[25] = num25;
+        labels[26] = num26;
+        labels[27] = num27;
+        labels[28] = num28;
+        labels[29] = num29;
+        labels[30] = num30;
+        labels[31] = num31;
+        labels[32] = num32;
+        labels[33] = num33;
+        labels[34] = num34;
+        labels[35] = num35;
+        labels[36] = num36;
+        labels[37] = num37;
+        labels[38] = num38;
+        labels[39] = num39;
+        labels[40] = num40;
+        labels[41] = num41;
+        labels[42] = num42;
+        labels[43] = num43;
+        labels[44] = num44;
+        labels[45] = num45;
+        labels[46] = num46;
+        labels[47] = num47;
+        labels[48] = num48;
+        labels[49] = num49;
+        labels[50] = num50;
+        labels[51] = num51;
+        labels[52] = num52;
+        labels[53] = num53;
+        labels[54] = num54;
+        labels[55] = num55;
+        labels[56] = num56;
+        labels[57] = num57;
+        labels[58] = num58;
+        labels[59] = num59;
+        labels[60] = num60;
+        labels[61] = num61;
+        labels[62] = num62;
+        labels[63] = num63;
+        labels[64] = num64;
+        labels[65] = num65;
+        labels[66] = num66;
+        labels[67] = num67;
+        labels[68] = num68;
+        labels[69] = num69;
+        labels[70] = num70;
+        labels[71] = num71;
+        labels[72] = num72;
+        labels[73] = num73;
+        labels[74] = num74;
+        labels[75] = num75;
+        labels[76] = num76;
+        labels[77] = num77;
+        labels[78] = num78;
+        labels[79] = num79;
+        labels[80] = num80;
+        labels[81] = num81;
+        labels[82] = num82;
+        labels[83] = num83;
+        labels[84] = num84;
+        labels[85] = num85;
+        labels[86] = num86;
+        labels[87] = num87;
+        labels[88] = num88;
+        labels[89] = num89;
+        labels[90] = num90;
+        labels[91] = num91;
+        labels[92] = num92;
+        labels[93] = num93;
+        labels[94] = num94;
+        labels[95] = num95;
+        labels[96] = num96;
+        labels[97] = num97;
+        labels[98] = num98;
+        labels[99] = num99;
+    }
+    
+    private void initLabels() { 
+        for(int i = 1; i <= 99; i++){
             labels[i].setText("X");
         }
-        
+        colorLabels();
+    }
+    private void colorLabels(){
+        for(int i = 1 ; i <= 99; i++){
+            labels[i].setForeground(Color.black);
+        }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel counter;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel num1;
@@ -579,16 +2184,98 @@ public class MainGUI extends javax.swing.JFrame {
     private javax.swing.JLabel num16;
     private javax.swing.JLabel num17;
     private javax.swing.JLabel num18;
+    private javax.swing.JLabel num19;
     private javax.swing.JLabel num2;
+    private javax.swing.JLabel num20;
+    private javax.swing.JLabel num21;
+    private javax.swing.JLabel num22;
+    private javax.swing.JLabel num23;
+    private javax.swing.JLabel num24;
+    private javax.swing.JLabel num25;
+    private javax.swing.JLabel num26;
+    private javax.swing.JLabel num27;
+    private javax.swing.JLabel num28;
+    private javax.swing.JLabel num29;
     private javax.swing.JLabel num3;
+    private javax.swing.JLabel num30;
+    private javax.swing.JLabel num31;
+    private javax.swing.JLabel num32;
+    private javax.swing.JLabel num33;
+    private javax.swing.JLabel num34;
+    private javax.swing.JLabel num35;
+    private javax.swing.JLabel num36;
+    private javax.swing.JLabel num37;
+    private javax.swing.JLabel num38;
+    private javax.swing.JLabel num39;
     private javax.swing.JLabel num4;
+    private javax.swing.JLabel num40;
+    private javax.swing.JLabel num41;
+    private javax.swing.JLabel num42;
+    private javax.swing.JLabel num43;
+    private javax.swing.JLabel num44;
+    private javax.swing.JLabel num45;
+    private javax.swing.JLabel num46;
+    private javax.swing.JLabel num47;
+    private javax.swing.JLabel num48;
+    private javax.swing.JLabel num49;
     private javax.swing.JLabel num5;
+    private javax.swing.JLabel num50;
+    private javax.swing.JLabel num51;
+    private javax.swing.JLabel num52;
+    private javax.swing.JLabel num53;
+    private javax.swing.JLabel num54;
+    private javax.swing.JLabel num55;
+    private javax.swing.JLabel num56;
+    private javax.swing.JLabel num57;
+    private javax.swing.JLabel num58;
+    private javax.swing.JLabel num59;
     private javax.swing.JLabel num6;
+    private javax.swing.JLabel num60;
+    private javax.swing.JLabel num61;
+    private javax.swing.JLabel num62;
+    private javax.swing.JLabel num63;
+    private javax.swing.JLabel num64;
+    private javax.swing.JLabel num65;
+    private javax.swing.JLabel num66;
+    private javax.swing.JLabel num67;
+    private javax.swing.JLabel num68;
+    private javax.swing.JLabel num69;
     private javax.swing.JLabel num7;
+    private javax.swing.JLabel num70;
+    private javax.swing.JLabel num71;
+    private javax.swing.JLabel num72;
+    private javax.swing.JLabel num73;
+    private javax.swing.JLabel num74;
+    private javax.swing.JLabel num75;
+    private javax.swing.JLabel num76;
+    private javax.swing.JLabel num77;
+    private javax.swing.JLabel num78;
+    private javax.swing.JLabel num79;
     private javax.swing.JLabel num8;
+    private javax.swing.JLabel num80;
+    private javax.swing.JLabel num81;
+    private javax.swing.JLabel num82;
+    private javax.swing.JLabel num83;
+    private javax.swing.JLabel num84;
+    private javax.swing.JLabel num85;
+    private javax.swing.JLabel num86;
+    private javax.swing.JLabel num87;
+    private javax.swing.JLabel num88;
+    private javax.swing.JLabel num89;
     private javax.swing.JLabel num9;
+    private javax.swing.JLabel num90;
+    private javax.swing.JLabel num91;
+    private javax.swing.JLabel num92;
+    private javax.swing.JLabel num93;
+    private javax.swing.JLabel num94;
+    private javax.swing.JLabel num95;
+    private javax.swing.JLabel num96;
+    private javax.swing.JLabel num97;
+    private javax.swing.JLabel num98;
+    private javax.swing.JLabel num99;
     private javax.swing.JLabel requiredNumber;
     // End of variables declaration//GEN-END:variables
     private int[] numbers;
     private javax.swing.JLabel[] labels;
+    private int start, end, requiredInt;
 }
