@@ -1285,10 +1285,11 @@ public class MainGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton1)
-                            .addComponent(counter, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(counter, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButton1)))
                         .addGap(32, 32, 32))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1925,8 +1926,9 @@ public class MainGUI extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         int hint = (start + end)/2;
-        labels[hint].setText("HERE");
+        play(hint);
         labels[hint].setForeground(Color.red);
+        increaseCounter();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     
@@ -1976,6 +1978,8 @@ public class MainGUI extends javax.swing.JFrame {
             return;
         }
         increaseCounter();
+        labels[x].setForeground(Color.blue);
+//        colorLabels();
         if (Integer.parseInt(requiredNumber.getText()) == numbers[x]) {
             revealNumbers();
         } else {
@@ -1985,13 +1989,12 @@ public class MainGUI extends javax.swing.JFrame {
             }else{
                 start = x+1;
             }
-            colorLabels();
         }
     }
 
     private void revealNumber(int x){
         labels[x].setText(Integer.toString(numbers[x]));
-        labels[x].setForeground(Color.black);
+//        labels[x].setForeground(Color.black);
     }
     
     private void revealNumbers(){
